@@ -13,7 +13,7 @@ int main()
         cin >> s;
         if (s.length() > 10)
         {
-            cout << s.front() + std::to_string(s.length() - 2) + s.back() << endl;
+            cout << s.front() << s.length() - 2 << s.back() << endl;
         }
         else
         {
