@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+main()
 {
     int n, a, b, diff_passengers = 0, curr_passengers = 0, max_capacity = 0;
 
