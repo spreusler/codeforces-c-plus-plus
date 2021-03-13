@@ -7,7 +7,7 @@ main()
 
     cin >> k >> n >> w;
 
-    for (int i = 1; i < w + 1; i++)
+    for (int i = 1; i <= w; i++)
     {
         cost_per_banana = i * k;
         total_costs = total_costs + cost_per_banana;
@@ -21,4 +21,6 @@ main()
     {
         cout << total_costs - n << endl;
     }
+
+    return 0;
 }
